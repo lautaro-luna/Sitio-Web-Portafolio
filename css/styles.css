@@ -1,5 +1,6 @@
 body {
-    background-color: #9bdbbd;
+    background-image: url('../img/nubes3.jpg');
+    background-size: cover;
 }
 
 .contenedor {
@@ -12,7 +13,6 @@ body {
     overflow: hidden;
     border-style: double;
     border-color: rgb(63, 35, 5);
-
 }
 
 .barra {
@@ -133,21 +133,21 @@ body {
 #texto3 {
     width: 100%;
     margin-left: 2%;
-    
+
 }
 
-#texto3-2{
+#texto3-2 {
     display: block;
     width: 25%;
     margin-right: 2%;
 }
 
-#tema-soundcloud{
+#tema-soundcloud {
     width: 30%;
     margin-right: 4%;
 }
 
-#tema-soundcloud2{
+#tema-soundcloud2 {
     width: 30%;
 }
 
@@ -237,14 +237,9 @@ body {
     margin-top: 1%;
 }
 
-body {
-    background-image: url('../img/poolroom.gif');
-    background-size: 100%;
-}
-
 footer {
     display: flex;
-    background-color:rgb(236, 249, 255);
+    background-color: rgb(236, 249, 255);
     border: 3px solid rgb(110, 93, 78);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -289,11 +284,11 @@ footer {
     }
 
     .texto-carousel h5 {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .texto-carousel p {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     .contenedor2 {
@@ -310,37 +305,37 @@ footer {
         display: block;
         padding-left: 0%;
     }
-    
+
     #texto2 {
         width: 100%;
         padding-left: 0%;
         padding-bottom: 2%;
     }
-    
+
     #texto1 {
         text-align: justify;
         width: 100%;
         padding-left: 0%;
         padding-bottom: 2%;
     }
-    
+
     #img2 {
         width: 95%;
         margin: 0%;
         margin-bottom: 4%;
     }
-    
+
     #img1 {
         width: 95%;
         margin: 0%;
         margin-bottom: 4%;
     }
-    
+
     .acord-item {
         padding-left: 4%;
     }
-    
-    #texto3{
+
+    #texto3 {
         padding-left: 2%;
     }
 
@@ -349,13 +344,15 @@ footer {
         padding-bottom: 2%;
         padding-left: 0%;
     }
-    #tema-soundcloud{
+
+    #tema-soundcloud {
         width: 100%;
         margin-top: 2%;
         margin-right: 10%;
         margin-left: 0%;
     }
-    #tema-soundcloud2{
+
+    #tema-soundcloud2 {
         width: 100%;
         margin-top: 2%;
         margin-right: 10%;
@@ -367,17 +364,17 @@ footer {
         margin-bottom: 1%;
         margin-top: 1%;
     }
-    
+
     .git a {
         font-size: 125%;
     }
-    
+
     .git img {
         width: 15%;
     }
 
 
-    footer{
+    footer {
         padding-left: 5%;
         padding-right: 5%;
         margin: 0%;
@@ -388,12 +385,12 @@ footer {
     .git a {
         font-size: 125%;
     }
-    
+
     .git img {
         width: 20%;
     }
 
-    footer{
+    footer {
         padding-left: 2%;
         padding-right: 2%;
         margin: 0%;
