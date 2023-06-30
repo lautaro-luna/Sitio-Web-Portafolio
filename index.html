@@ -132,13 +132,14 @@
                     <div id="collapseOne" class="accordion-collapse collapse show acord-item"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" id="texto1">
-                            <div >
+                            <div>
                                 <strong>Me llamo Lautaro Eduardo Eber Luna.</strong> Nací y actualmente vivo en
                                 Laboulaye, una pequeña ciudad del sur de Córdoba. Tengo 17 años, mi cumpleaños es el 3
                                 de febrero.
                             </div>
                         </div>
-                        <img id="img1" src="./img/laboulaye.jpg" alt="Cartel de Laboulaye." Title="Cartel de Laboulaye.">
+                        <img id="img1" src="./img/laboulaye.jpg" alt="Cartel de Laboulaye."
+                            Title="Cartel de Laboulaye.">
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -150,18 +151,17 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse acord-item"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <div id="texto2">
-                                <strong>Estoy cursando el sexto año de la especialidad de programación.</strong> Estudio
-                                en la I.P.E.T. y M. N°257 "Dr. René Favaloro", ex ENET N°1. Es un secundario técnico y
-                                tiene muchas especialidades, lo elegí principalmente porque todos mis amigos irían
-                                también, pero al pasar el tiempo comencé a interesarme por la programación de
-                                videojuegos y terminé entrado a la especialidad de Programación por ello.
-                                Este año estoy aprendiendo y trabajando con el Frontend (<code>HTML, CSS y JS</code>),
-                                Bases de Datos en <code>Access</code> y el lenguaje de programacion <code>Java</code> .
-                            </div>
+                        <div class="accordion-body" id="texto2">
+                            <strong>Estoy cursando el sexto año de la especialidad de programación.</strong> Estudio
+                            en la I.P.E.T. y M. N°257 "Dr. René Favaloro", ex ENET N°1. Es un secundario técnico y
+                            tiene muchas especialidades, lo elegí principalmente porque todos mis amigos irían
+                            también, pero al pasar el tiempo comencé a interesarme por la programación de
+                            videojuegos y terminé entrado a la especialidad de Programación por ello.
+                            Este año estoy aprendiendo y trabajando con el Frontend (<code>HTML, CSS y JS</code>),
+                            Bases de Datos en <code>Access</code> y el lenguaje de programacion <code>Java</code> .
                         </div>
-                        <img id="img2" src="./img/frontend.png" alt="Ilustración de Frontend" title="Ilustración de Frontend">
+                        <img id="img2" src="./img/frontend.png" alt="Ilustración de Frontend"
+                            title="Ilustración de Frontend">
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -172,20 +172,28 @@
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body acord-item">
-                            <div id="texto3">
+                        <div class="accordion-body acord-item" id="texto3">
+                            <div id="texto3-2">
                                 <strong>Además de la programación, amo la música</strong> Soy músico y toco varios
-                                instrumentos, la guitarra, el bajo, posiblemente batería y también canto. Me dedico a hacer
-                                covers y temas propios, mayormente en inglés, y los subo a internet. Me gusta mucho el <code>punk</code>
-                                y hago temas de ese estilo. También sé producir en el DAW de <code>FL-Studio</code>.
+                                instrumentos, la guitarra, el bajo, posiblemente batería y también canto. Me dedico a
+                                hacer
+                                covers y temas propios, mayormente en inglés, y los subo a internet. Me gusta mucho el
+                                <code>punk</code> y hago temas de ese estilo. También sé producir en el DAW de
+                                <code>FL-Studio</code>.
                             </div>
 
-                            
-                            <iframe id="tema-soundcloud" width="40%" height="250" scrolling="no" frameborder="no" allow="autoplay"
+                            <iframe id="tema-soundcloud" width="50%" height="280" scrolling="no" frameborder="no"
+                                allow="autoplay"
                                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1524756226&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                             <div
                                 style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                                </div>
+                            </div>
+
+                            <iframe id="tema-soundcloud2" width="50%" height="280" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1526349682&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                            <div
+                                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -195,10 +203,11 @@
         <div class="tituloSitios" id="contacto">
             <h3>Contacto</h3>
         </div>
+
         <div class="formulario-consulta">
             <h3>Envíame tu consulta</h3>
-            <form action="" method="post">
-                <label for="nombre">
+            <form action="https://formspree.io/f/moqoapla" method="post">
+                <label for="Nombre">
                     <h5>Nombre y apellido:</h5>
                     <input type="text" name="nombre" placeholder="Su nombre y apellido." size="200" required>
                 </label>
@@ -208,8 +217,8 @@
                     <input type="email" name="Email" placeholder="Su Email." size="200" required>
                 </label>
                 <br>
-                <label for="Msg">
-                    <textarea name="msg" cols="150" rows="5" placeholder="Escriba su consulta aquí."
+                <label for="Mensaje">
+                    <textarea name="Mensaje" cols="150" rows="5" placeholder="Escriba su consulta aquí."
                         required></textarea>
                 </label>
                 <br>
@@ -221,17 +230,17 @@
                 <img src="./img/footer/github.png" alt="" title="Mi Github">
                 <a href="https://github.com/lautaro-luna">Github</a>
             </div>
-           
+
             <div class="git">
                 <img src="./img/footer/correo.png" alt="" title="Mandame un correo">
                 <a href="mailto:lunalautaro650">Email</a>
             </div>
-            
+
             <div class="git">
                 <img src="./img/footer/soundcloud.png" alt="" title="Mi Souncloud">
                 <a href="https://soundcloud.com/fusilapiratas82/">Soundcloud</a>
             </div>
-            
+
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

@@ -101,17 +101,16 @@ body {
     display: flex;
 }
 
-.acordeon-texto {
-    width: 50%;
-}
 
 #texto2 {
     width: 100%;
+    text-align: justify;
 }
 
 #texto1 {
     width: 30%;
     margin-right: 5%;
+    text-align: justify;
 }
 
 #img2 {
@@ -132,9 +131,24 @@ body {
 }
 
 #texto3 {
+    width: 100%;
+    margin-left: 2%;
+    
+}
+
+#texto3-2{
+    display: block;
+    width: 25%;
+    margin-right: 2%;
+}
+
+#tema-soundcloud{
     width: 30%;
-    margin-left: 10%;
-    margin-right: 8%
+    margin-right: 4%;
+}
+
+#tema-soundcloud2{
+    width: 30%;
 }
 
 .contenedor-carousel {
@@ -234,12 +248,12 @@ footer {
     border: 3px solid rgb(110, 93, 78);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-bottom: 1%;
 }
 
 .git {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 1%;
     margin-top: 1%;
 }
 
@@ -248,7 +262,7 @@ footer {
 }
 
 .git img {
-    width: 15%;
+    width: 10%;
     object-fit: cover;
 }
 
@@ -292,5 +306,96 @@ footer {
         width: 95%;
     }
 
+    .acord-item {
+        display: block;
+        padding-left: 0%;
+    }
+    
+    #texto2 {
+        width: 100%;
+        padding-left: 0%;
+        padding-bottom: 2%;
+    }
+    
+    #texto1 {
+        text-align: justify;
+        width: 100%;
+        padding-left: 0%;
+        padding-bottom: 2%;
+    }
+    
+    #img2 {
+        width: 95%;
+        margin: 0%;
+        margin-bottom: 4%;
+    }
+    
+    #img1 {
+        width: 95%;
+        margin: 0%;
+        margin-bottom: 4%;
+    }
+    
+    .acord-item {
+        padding-left: 4%;
+    }
+    
+    #texto3{
+        padding-left: 2%;
+    }
 
+    #texto3-2 {
+        width: 100%;
+        padding-bottom: 2%;
+        padding-left: 0%;
+    }
+    #tema-soundcloud{
+        width: 100%;
+        margin-top: 2%;
+        margin-right: 10%;
+        margin-left: 0%;
+    }
+    #tema-soundcloud2{
+        width: 100%;
+        margin-top: 2%;
+        margin-right: 10%;
+        margin-left: 0%;
+    }
+
+    .git {
+        margin: 0%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    
+    .git a {
+        font-size: 125%;
+    }
+    
+    .git img {
+        width: 15%;
+    }
+
+
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0%;
+    }
+}
+
+@media (max-width: 630px) {
+    .git a {
+        font-size: 125%;
+    }
+    
+    .git img {
+        width: 20%;
+    }
+
+    footer{
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 0%;
+    }
 }
