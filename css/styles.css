@@ -1,14 +1,296 @@
-.title{
-    color: crimson;
+body {
+    background-color: #9bdbbd;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 1rem;
+    overflow: hidden;
+    border-style: double;
+    border-color: rgb(63, 35, 5);
+
+}
+
+.barra {
+    background-color: rgb(242, 234, 211);
+    margin: auto;
+}
+
+.contenedor-presentacion {
+    margin: auto;
+    padding-top: 2%;
+    background-image: url('../img/ff3ywn-1.webp');
+    background-size: cover;
+    display: flex;
+}
+
+
+.seccion {
+    width: 25%;
+    height: auto;
+    margin: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
     text-align: center;
+    border-radius: 1rem;
+    border: 5px solid;
+    animation: rotar-borde 6s linear infinite;
 }
 
-.indicador{
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown;
+
+#titulo {
+    font-weight: 600;
+    text-align: center;
+    font-size: 150%;
+    color: #000000;
+    text-shadow:
+        0 0 1px #cee9ff,
+        0 0 2px #c2c6ff,
+        0 0 4px #cbdbff,
+        0 0 8px rgb(7, 79, 121),
+        0 0 16px rgb(0, 102, 255),
+        0 0 32px rgb(0, 89, 255),
+        0 0 64px rgb(0, 47, 255),
+        0 0 128px rgb(0, 26, 255);
 }
 
-body{
-    background-color: beige;
+#sam {
+    padding: 1%;
+    margin: 5%;
+    margin-top: 1%;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 6rem;
+    border: #084298 double;
 }
 
+
+
+.contenedor2 {
+    margin: auto;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor2 .card {
+    margin: 2%;
+    width: 18rem;
+}
+
+.lol {
+    width: 70%;
+    height: auto;
+}
+
+
+.acordeon {
+    margin: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.acord-item {
+    display: flex;
+}
+
+.acordeon-texto {
+    width: 50%;
+}
+
+#texto2 {
+    width: 100%;
+}
+
+#texto1 {
+    width: 30%;
+    margin-right: 5%;
+}
+
+#img2 {
+    width: 30%;
+    height: auto;
+    margin: 2%;
+    margin-right: 5%;
+}
+
+#img1 {
+    width: 20%;
+    margin: 2%;
+    margin-right: 10%;
+}
+
+.acord-item {
+    padding-left: 10%;
+}
+
+#texto3 {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 8%
+}
+
+.contenedor-carousel {
+    width: 60%;
+    height: auto;
+}
+
+.degradado-negro {
+    position: relative;
+    display: inline-block;
+
+}
+
+.degradado-negro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    pointer-events: none;
+
+}
+
+.degradado-negro img {
+    width: auto;
+    height: auto;
+}
+
+@keyframes rotar-borde {
+    0% {
+        border-color: #010103;
+    }
+
+    25% {
+        border-color: #1a2528;
+    }
+
+    50% {
+        border-color: #2955ab;
+    }
+
+    75% {
+        border-color: #1a2528;
+    }
+
+    100% {
+        border-color: #010103;
+    }
+}
+
+.tituloSitios {
+    text-align: center;
+    margin: auto;
+    padding: 2vh;
+    background-color: rgb(236, 249, 255);
+    border: 3px solid rgb(110, 93, 78);
+}
+
+.formulario-consulta {
+    padding: 5%;
+    padding-top: 3%;
+}
+
+.formulario-consulta h3 {
+    padding-left: 2%;
+}
+
+.formulario-consulta input {
+    width: 100%;
+}
+
+.formulario-consulta textarea {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.formulario-consulta form {
+    border: 3px dashed rgb(110, 93, 78);
+    background-color: rgb(255, 251, 235);
+    padding: 2%;
+}
+
+.formulario-consulta button {
+    margin-top: 1%;
+}
+
+body {
+    background-image: url('../img/poolroom.gif');
+    background-size: 100%;
+}
+
+footer {
+    display: flex;
+    background-color:rgb(236, 249, 255);
+    border: 3px solid rgb(110, 93, 78);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.git {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.git a {
+    font-size: 125%;
+}
+
+.git img {
+    width: 15%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .contenedor {
+        width: 90%;
+    }
+
+    .contenedor-presentacion {
+        display: block;
+    }
+
+    .seccion {
+        width: fit-content;
+    }
+
+    #sam {
+        width: 50%;
+        height: 50%;
+    }
+
+    .contenedor-carousel {
+        width: fit-content;
+    }
+
+    .texto-carousel h5 {
+        font-size: 100%;
+    }
+
+    .texto-carousel p {
+        font-size: 90%;
+    }
+
+    .contenedor2 {
+        display: block;
+        padding: 2%;
+        padding-bottom: 4%;
+    }
+
+    .contenedor2 .card {
+        width: 95%;
+    }
+
+
+}
