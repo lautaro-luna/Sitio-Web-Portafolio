@@ -74,8 +74,7 @@ body {
 
 
 .contenedor2 {
-    margin: auto;
-    padding-left: 4%;
+    margin: 0%;
     display: flex;
     flex-direction: row;
 }
@@ -83,6 +82,14 @@ body {
 .contenedor2 .card {
     margin: 2%;
     width: 18rem;
+}
+
+#texto-tarjeta1{
+    margin-bottom: 18%;
+}
+
+#texto-tarjeta2{
+    margin-bottom: 30%;
 }
 
 .lol {
@@ -103,53 +110,50 @@ body {
 
 
 #texto2 {
-    width: 100%;
+    width: 50%;
+    padding-right: 5%;
     text-align: justify;
 }
 
 #texto1 {
-    width: 30%;
+    width: 100%;
     margin-right: 5%;
     text-align: justify;
 }
 
 #img2 {
-    width: 30%;
+    width: 15%;
     height: auto;
-    margin: 2%;
-    margin-right: 5%;
+    margin: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #img1 {
-    width: 20%;
+    width: 35%;
     margin: 2%;
-    margin-right: 10%;
+    margin-right: 4%;
+}
+
+#img3{
+    width: 40%;
+    margin: 1%;
+    margin-right: 4%;
+    margin-left: 15%;
+}
+
+#texto3 {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
 }
 
 .acord-item {
     padding-left: 10%;
+    display: flex;
 }
 
-#texto3 {
-    width: 100%;
-    margin-left: 2%;
-
-}
-
-#texto3-2 {
-    display: block;
-    width: 25%;
-    margin-right: 2%;
-}
-
-#tema-soundcloud {
-    width: 30%;
-    margin-right: 4%;
-}
-
-#tema-soundcloud2 {
-    width: 30%;
-}
 
 .contenedor-carousel {
     width: 60%;
@@ -250,14 +254,15 @@ footer {
 
 .git {
     margin-top: 1%;
+    margin-left: 10%;
 }
 
 .git a {
-    font-size: 125%;
+    font-size: 120%;
 }
 
 .git img {
-    width: 10%;
+    width: 8%;
     object-fit: cover;
 }
 
@@ -320,44 +325,30 @@ footer {
     }
 
     #img2 {
-        width: 95%;
+        width: 40%;
         margin: 0%;
         margin-bottom: 4%;
+        margin-left: 30%;
     }
 
     #img1 {
-        width: 95%;
+        width: 100%;
         margin: 0%;
         margin-bottom: 4%;
     }
 
-    .acord-item {
-        padding-left: 4%;
-    }
 
+    #img3{
+        width: 100%;
+        margin: 1%;
+    }
+    
     #texto3 {
-        padding-left: 2%;
-    }
-
-    #texto3-2 {
         width: 100%;
-        padding-bottom: 2%;
-        padding-left: 0%;
-    }
-
-    #tema-soundcloud {
-        width: 100%;
-        margin-top: 2%;
-        margin-right: 10%;
-        margin-left: 0%;
-    }
-
-    #tema-soundcloud2 {
-        width: 100%;
-        margin-top: 2%;
-        margin-right: 10%;
-        margin-left: 0%;
-    }
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: justify;
+    }    
 
     .git {
         margin: 0%;

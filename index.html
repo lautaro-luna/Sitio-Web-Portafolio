@@ -28,10 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#sitios">Portafolio</a>
+                            <a class="nav-link active" aria-current="page" href="#info">Acerca de mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#info">Acerca de mí</a>
+                            <a class="nav-link" href="#sitios">Proyectos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
@@ -80,8 +80,78 @@
             </div>
         </div>
 
+        
+
+        <div class="tituloSitios" id="info">
+            <h3>Acerca de mí</h3>
+        </div>
+        <div class="acordeon">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tecnologías con las que trabajo
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show "
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body acord-item">
+                            <div id="texto1">
+                                Este año estoy aprendiendo y trabajando con el Frontend (<code>HTML, CSS y JS</code>),
+                                Bases de Datos y el lenguaje de programacion <code>Java</code>.
+                                He llevado a cabo algunos proyectos, ligados al Frontend, de sitios web, los cuales se pueden visitar a continuación.
+                                Actualmente soy capaz de desarrollar sitios que se adapten a todos los dispositivos, ya sea teléfono móvil, notebook o PC.   
+                            </div>
+                            <img id="img1" src="./img/frontend.png" alt="Ilustración de Frontend"
+                                title="Ilustración de Frontend">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Sobre mis estudios
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body acord-item">
+                            <div id="texto2">
+                                <strong>Estoy cursando el sexto año de la especialidad de programación.</strong> Estudio
+                                en la I.P.E.T. y M. N°257 "Dr. René Favaloro", ex ENET N°1. Es un secundario técnico y
+                                tiene muchas especialidades.
+                            </div>
+                            <img src="./img/ipetym.png" id="img2" alt="IPETyM N°257 Dr René Favaloro" title="IPETyM N°257 Dr René Favaloro">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Quién soy?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body acord-item">
+                            <div id="texto3">
+                                <strong>Me llamo Lautaro Eduardo Eber Luna.</strong> Nací y actualmente vivo en
+                                Laboulaye, una pequeña ciudad del sur de Córdoba. 
+                            </div>
+                            <img id="img3" src="./img/laboulaye.jpg" alt="Cartel de Laboulaye."
+                                Title="Cartel de Laboulaye.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="tituloSitios" id="sitios">
-            <h3>Mis sitios web</h3>
+            <h3>Proyectos</h3>
         </div>
 
         <div class="contenedor2">
@@ -100,7 +170,7 @@
                 <img src="./img/Formulario.png" class="card-img-top" alt="Sitio de Formulario">
                 <div class="card-body">
                     <h5 class="card-title">Formulario</h5>
-                    <p class="card-text">Entrá y completá este formulario para enviarnos tu información, la de tu
+                    <p class="card-text" id="texto-tarjeta1">Entrá y completá este formulario para enviarnos tu información, la de tu
                         auto y tus comentarios.</p>
                     <a href="https://ejercicio-formulario-lautaro-luna.netlify.app/" class="btn btn-primary">Visitar
                         Sitio</a>
@@ -111,92 +181,8 @@
                 <img src="./img/mkultrasupportsite.png" class="card-img-top" alt="Sitio de Información Personal">
                 <div class="card-body">
                     <h5 class="card-title">Información Personal</h5>
-                    <p class="card-text">Podés visitar este sitio y averiguar un poco más sobre mí.</p>
+                    <p class="card-text" id="texto-tarjeta2">Podés visitar este sitio y averiguar un poco más sobre mí.</p>
                     <a href="https://mkultrasupportsite.netlify.app/" class="btn btn-primary">Visitar Sitio</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="tituloSitios" id="info">
-            <h3>Acerca de mí</h3>
-        </div>
-        <div class="acordeon">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿Quién soy?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show acord-item"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" id="texto1">
-                            <div>
-                                <strong>Me llamo Lautaro Eduardo Eber Luna.</strong> Nací y actualmente vivo en
-                                Laboulaye, una pequeña ciudad del sur de Córdoba. Tengo 17 años, mi cumpleaños es el 3
-                                de febrero.
-                            </div>
-                        </div>
-                        <img id="img1" src="./img/laboulaye.jpg" alt="Cartel de Laboulaye."
-                            Title="Cartel de Laboulaye.">
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Sobre mis estudios
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse acord-item"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" id="texto2">
-                            <strong>Estoy cursando el sexto año de la especialidad de programación.</strong> Estudio
-                            en la I.P.E.T. y M. N°257 "Dr. René Favaloro", ex ENET N°1. Es un secundario técnico y
-                            tiene muchas especialidades, lo elegí principalmente porque todos mis amigos irían
-                            también, pero al pasar el tiempo comencé a interesarme por la programación de
-                            videojuegos y terminé entrado a la especialidad de Programación por ello.
-                            Este año estoy aprendiendo y trabajando con el Frontend (<code>HTML, CSS y JS</code>),
-                            Bases de Datos en <code>Access</code> y el lenguaje de programacion <code>Java</code> .
-                        </div>
-                        <img id="img2" src="./img/frontend.png" alt="Ilustración de Frontend"
-                            title="Ilustración de Frontend">
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Sobre mis hobbies
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body acord-item" id="texto3">
-                            <div id="texto3-2">
-                                <strong>Además de la programación, amo la música</strong> Soy músico y toco varios
-                                instrumentos, la guitarra, el bajo, posiblemente batería y también canto. Me dedico a
-                                hacer
-                                covers y temas propios, mayormente en inglés, y los subo a internet. Me gusta mucho el
-                                <code>punk</code> y hago temas de ese estilo. También sé producir en el DAW de
-                                <code>FL-Studio</code>.
-                            </div>
-
-                            <iframe id="tema-soundcloud" width="50%" height="280" scrolling="no" frameborder="no"
-                                allow="autoplay"
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1524756226&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                            <div
-                                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                            </div>
-
-                            <iframe id="tema-soundcloud2" width="50%" height="280" scrolling="no" frameborder="no"
-                                allow="autoplay"
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1526349682&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                            <div
-                                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -208,24 +194,24 @@
         <div class="formulario-consulta">
             <h3>Envíame tu consulta</h3>
             <form action="https://formspree.io/f/moqoapla" method="post">
-                <label for="Nombre">
-                    <h5>Nombre y apellido:</h5>
-                    <input type="text" name="nombre" placeholder="Su nombre y apellido." size="200" required>
-                </label>
-                <br>
-                <label for="Email">
-                    <h5>Email:</h5>
-                    <input type="email" name="Email" placeholder="Su Email." size="200" required>
-                </label>
-                <br>
-                <label for="Mensaje">
-                    <textarea name="Mensaje" cols="150" rows="5" placeholder="Escriba su consulta aquí."
-                        required></textarea>
-                </label>
-                <br>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                    <input type="email" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="Su nombre y apellido.">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" name="Mensaje" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta aquí."></textarea>
+                </div>
+
                 <button type="submit">Enviar</button>
             </form>
         </div>
+
         <footer>
             <div class="git">
                 <img src="./img/footer/github.png" alt="" title="Mi Github">
@@ -235,11 +221,6 @@
             <div class="git">
                 <img src="./img/footer/correo.png" alt="" title="Mandame un correo">
                 <a href="mailto:lunalautaro650">Email</a>
-            </div>
-
-            <div class="git">
-                <img src="./img/footer/soundcloud.png" alt="" title="Mi Souncloud">
-                <a href="https://soundcloud.com/fusilapiratas82/">Soundcloud</a>
             </div>
 
         </footer>
